@@ -1,6 +1,7 @@
 <template>
   <h3>History</h3>
-  <ul id="list" class="list">
+  <p v-if="transactions.length === 0">No transactions yet</p>
+  <ul id="list" class="list" v-else>
     <li
       v-for="transaction in transactions"
       :key="transaction.id"
