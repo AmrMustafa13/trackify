@@ -4,8 +4,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
 const { total } = defineProps({
   total: {
     type: Number,

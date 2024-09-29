@@ -12,8 +12,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
 const { income, expense } = defineProps({
   income: {
     type: Number,
