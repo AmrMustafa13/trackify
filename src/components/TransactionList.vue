@@ -22,4 +22,10 @@ const { transactions } = defineProps({
     required: true,
   },
 });
+
+const emit = defineEmits(["deleteTransaction"]);
+
+const deleteTransaction = (id) => {
+  emit("deleteTransaction", id);
+};
 </script>
