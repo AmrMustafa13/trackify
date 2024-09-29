@@ -1,29 +1,41 @@
-# trackify
+# Trackify - Expense Tracking App
 
-This template should help get you started developing with Vue 3 in Vite.
+**Trackify** is a lightweight and intuitive expense tracking application built with Vue 3 using the Composition API. It enables users to easily track and manage their personal finances.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Simple and user-friendly interface for tracking expenses.
+- Add, edit, and delete your expenses.
+- Responsive design for both desktop and mobile users.
 
-## Customize configuration
+## Tech Stack
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **VueJS 3**: Modern JavaScript framework for building dynamic user interfaces.
+- **Vite**: Fast and lightweight development build tool for VueJS applications.
 
-## Project Setup
+## Installation
 
-```sh
-npm install
-```
+To run the project locally, follow these steps:
 
-### Compile and Hot-Reload for Development
+1. Clone the repository:
 
-```sh
-npm run dev
-```
+   ```bash
+   git clone https://github.com/your-username/trackify.git
+   ```
 
-### Compile and Minify for Production
+2. Navigate to the project directory:
 
-```sh
-npm run build
-```
+   ```
+   cd trackify
+   ```
+
+3. Install the dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Run the development server:
+   ```
+   npm run dev
+   ```
